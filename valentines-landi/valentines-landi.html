@@ -66,7 +66,7 @@
 </head>
 <body>
     <div id="content">
-        <h2 id="question">Would you date me?</h2>
+        <h2 id="question">Will you be my valentine?</h2>
         <button id="yesButton">YES</button>
         <button id="noButton">NO</button>
         <p id="message"></p>
@@ -98,7 +98,7 @@
                 this.style.position = 'absolute';
                 this.style.left = Math.random() * window.innerWidth + 'px';
                 this.style.top = Math.random() * window.innerHeight + 'px';
-                document.getElementById('message').innerText = 'Are you sure?';
+                document.getElementById('message').innerText = 'SURE BA? CHOOSY MUCH RA SD' 
                 document.getElementById('message').style.position = 'absolute';
                 document.getElementById('message').style.left = this.style.left;
                 document.getElementById('message').style.top = parseFloat(this.style.top) + 50 + 'px';
@@ -111,7 +111,7 @@
         });
 
         document.getElementById('yesButton').addEventListener('click', function() {                 //YESSSS button
-            document.getElementById('question').innerText = 'YIEEEEE SAN DATE NATIN? OTW';
+            document.getElementById('question').innerText = 'YIEEEEE EXAM DATE YARN HAHAHA';
             for (var i = 0; i < 100; i++) {
                 var heart = document.createElement('div');
                 heart.className = 'heart';
